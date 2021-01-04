@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  zookeeper:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 3.6.2
+    created: "2021-01-04T13:01:43.76952+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A centralized service for maintaining configuration information,
+      naming, providing distributed synchronization, and providing group services
+      for distributed applications.
+    digest: c9c78d0906df443e043f51aa51463fb948d3fb90090c9ffc5197c5083e1b532f
+    home: https://github.com/zhaohuabing/charts/tree/master/bitnami/zookeeper
+    icon: https://bitnami.com/assets/stacks/zookeeper/img/zookeeper-stack-110x117.png
+    keywords:
+    - zookeeper
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: zookeeper
+    sources:
+    - https://github.com/bitnami/bitnami-docker-zookeeper
+    - https://zookeeper.apache.org/
+    urls:
+    - http://zhaohuabing.com/helm-repo/zookeeper-6.3.0.tgz
+    version: 6.3.0
+generated: "2021-01-04T13:01:43.766741+08:00"
