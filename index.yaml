@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.7.0
-    created: "2021-01-04T13:07:50.735834+08:00"
+    created: "2021-01-04T17:16:00.023337+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +17,7 @@ entries:
       repository: https://zhaohuabing.com/helm-repo
       version: 6.x.x
     description: Apache Kafka is a distributed streaming platform.
-    digest: df213ef031c3950958979e2371a552b3d23a9ecb1e3de17c621fba728a5bdaab
+    digest: 0cb9dd12fccb40c44f51db541b614a537204c641ea71f2617d8c961c42f16d75
     home: https://github.com/zhaohuabing/charts/tree/master/bitnami/kafka
     icon: https://bitnami.com/assets/stacks/kafka/img/kafka-stack-110x117.png
     keywords:
@@ -41,7 +41,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.6.2
-    created: "2021-01-04T13:07:50.738995+08:00"
+    created: "2021-01-04T17:16:00.026554+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -51,7 +51,7 @@ entries:
     description: A centralized service for maintaining configuration information,
       naming, providing distributed synchronization, and providing group services
       for distributed applications.
-    digest: c9c78d0906df443e043f51aa51463fb948d3fb90090c9ffc5197c5083e1b532f
+    digest: 6ba68012e8008436a2c57d1c7676fdd93d5793626a6f9871fb455835e03c7509
     home: https://github.com/zhaohuabing/charts/tree/master/bitnami/zookeeper
     icon: https://bitnami.com/assets/stacks/zookeeper/img/zookeeper-stack-110x117.png
     keywords:
@@ -66,4 +66,4 @@ entries:
     urls:
     - http://zhaohuabing.com/helm-repo/zookeeper-6.3.0.tgz
     version: 6.3.0
-generated: "2021-01-04T13:07:50.728635+08:00"
+generated: "2021-01-04T17:16:00.015178+08:00"
