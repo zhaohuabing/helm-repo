@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.2.3
-    created: "2021-01-05T11:02:52.856759+08:00"
+    created: "2021-01-05T16:39:07.250539+08:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
       This chart is not deployable by itself.
     digest: 40ea9c50815a61b914a377e7dce11f2722cf20838639bdf04c376f9dce9abe7c
@@ -33,7 +33,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.7.0
-    created: "2021-01-05T11:02:52.863671+08:00"
+    created: "2021-01-05T16:39:07.25625+08:00"
     dependencies:
     - name: common
       repository: https://zhaohuabing.com/helm-repo
@@ -69,7 +69,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.6.2
-    created: "2021-01-05T11:02:52.865985+08:00"
+    created: "2021-01-05T16:39:07.259366+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -79,7 +79,7 @@ entries:
     description: A centralized service for maintaining configuration information,
       naming, providing distributed synchronization, and providing group services
       for distributed applications.
-    digest: 4f2f9850c54ef77856823c3c8819fd5c782dbf06d56caf986d1e32ffa49315e0
+    digest: c0a21db363a7b00fafb407367b54eb4146f90acd2784a40d6a0f7cce7a3f046a
     home: https://github.com/zhaohuabing/charts/tree/master/bitnami/zookeeper
     icon: https://bitnami.com/assets/stacks/zookeeper/img/zookeeper-stack-110x117.png
     keywords:
@@ -94,4 +94,4 @@ entries:
     urls:
     - zookeeper-6.3.0.tgz
     version: 6.3.0
-generated: "2021-01-05T11:02:52.855906+08:00"
+generated: "2021-01-05T16:39:07.249221+08:00"
