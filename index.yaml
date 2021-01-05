@@ -1,14 +1,42 @@
 apiVersion: v1
 entries:
+  common:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.2.3
+    created: "2021-01-05T11:02:52.856759+08:00"
+    description: A Library Helm Chart for grouping common logic between bitnami charts.
+      This chart is not deployable by itself.
+    digest: 40ea9c50815a61b914a377e7dce11f2722cf20838639bdf04c376f9dce9abe7c
+    home: https://github.com/bitnami/charts/tree/master/bitnami/common
+    icon: https://bitnami.com/downloads/logos/bitnami-mark.png
+    keywords:
+    - common
+    - helper
+    - template
+    - function
+    - bitnami
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: common
+    sources:
+    - https://github.com/bitnami/charts
+    - http://www.bitnami.com/
+    type: library
+    urls:
+    - common-1.2.3.tgz
+    version: 1.2.3
   kafka:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.7.0
-    created: "2021-01-04T17:16:00.023337+08:00"
+    created: "2021-01-05T11:02:52.863671+08:00"
     dependencies:
     - name: common
-      repository: https://charts.bitnami.com/bitnami
+      repository: https://zhaohuabing.com/helm-repo
       tags:
       - bitnami-common
       version: 1.x.x
@@ -17,7 +45,7 @@ entries:
       repository: https://zhaohuabing.com/helm-repo
       version: 6.x.x
     description: Apache Kafka is a distributed streaming platform.
-    digest: 0cb9dd12fccb40c44f51db541b614a537204c641ea71f2617d8c961c42f16d75
+    digest: a7fc27d9a6b3e58f2d3dc9279c51447e6fe10e67e8dd37d03b4807817a2a8a9c
     home: https://github.com/zhaohuabing/charts/tree/master/bitnami/kafka
     icon: https://bitnami.com/assets/stacks/kafka/img/kafka-stack-110x117.png
     keywords:
@@ -34,14 +62,14 @@ entries:
     - https://github.com/bitnami/bitnami-docker-kafka
     - https://kafka.apache.org/
     urls:
-    - http://zhaohuabing.com/helm-repo/kafka-12.5.0.tgz
+    - kafka-12.5.0.tgz
     version: 12.5.0
   zookeeper:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.6.2
-    created: "2021-01-04T17:16:00.026554+08:00"
+    created: "2021-01-05T11:02:52.865985+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -51,7 +79,7 @@ entries:
     description: A centralized service for maintaining configuration information,
       naming, providing distributed synchronization, and providing group services
       for distributed applications.
-    digest: 6ba68012e8008436a2c57d1c7676fdd93d5793626a6f9871fb455835e03c7509
+    digest: 4f2f9850c54ef77856823c3c8819fd5c782dbf06d56caf986d1e32ffa49315e0
     home: https://github.com/zhaohuabing/charts/tree/master/bitnami/zookeeper
     icon: https://bitnami.com/assets/stacks/zookeeper/img/zookeeper-stack-110x117.png
     keywords:
@@ -64,6 +92,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-zookeeper
     - https://zookeeper.apache.org/
     urls:
-    - http://zhaohuabing.com/helm-repo/zookeeper-6.3.0.tgz
+    - zookeeper-6.3.0.tgz
     version: 6.3.0
-generated: "2021-01-04T17:16:00.015178+08:00"
+generated: "2021-01-05T11:02:52.855906+08:00"
